@@ -10,6 +10,7 @@ namespace WebApp2.Controllers
     {
         public ActionResult Index()
         {
+            // komentar za Novi_branch
             return View();
         }
 

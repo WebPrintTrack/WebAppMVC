@@ -29,16 +29,6 @@ namespace WebApp2.Controllers
             return View();
         }
 
-        public ActionResult Igor()
-        {
-            //Nova metoda novo Igor 
-            ViewBag.Message = "Your application description page novo dodano Igor.";
-
-            return View();
-        }
-
-
-
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";

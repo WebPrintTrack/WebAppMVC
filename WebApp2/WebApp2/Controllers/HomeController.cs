@@ -10,6 +10,7 @@ namespace WebApp2.Controllers
     {
         public ActionResult Amel_Novi_Branch()
         {
+            
             return View();
         }
 

@@ -8,6 +8,12 @@ namespace WebApp2.Controllers
 {
     public class HomeController : Controller
     {
+        public ActionResult Amel_Novi_Branch()
+        {
+            return View();
+        }
+
+
         public ActionResult Index()
         {
             // komentar za Novi_branch

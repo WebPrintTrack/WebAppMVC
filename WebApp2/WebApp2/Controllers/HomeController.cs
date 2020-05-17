@@ -11,6 +11,7 @@ namespace WebApp2.Controllers
         public ActionResult Index()
         {
             // komentar za Novi_branch
+            ViewBag.new_branch = "Kreiran je sljedeci branch; za novi view";
             return View();
         }
 

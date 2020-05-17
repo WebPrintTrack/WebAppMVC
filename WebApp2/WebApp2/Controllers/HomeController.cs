@@ -10,12 +10,13 @@ namespace WebApp2.Controllers
     {
         public ActionResult Index()
         {
-            // komentar za Novi_branch
+            //Ovo je drugi komentar
             return View();
         }
 
         public ActionResult About()
         {
+            //Stvorio sam novi branch Printer 
             ViewBag.Message = "Your application description page novo dodano Igor.";
 
             return View();
